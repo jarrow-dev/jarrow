@@ -27,7 +27,7 @@ concurrency:
 env:
   # Gradle for the probe build (no wrapper is committed, because .jar files never are).
   # Fabric Loom 1.17.21 needs Gradle 9.5 or later on Java 21; ModDevGradle 2.0.148 runs on it.
-  GRADLE_VERSION: "9.5.1"
+  GRADLE_VERSION: "9.9.0"
   # The game versions with a probe (harness/probe/common/src/mc-<version>). Every one of them
   # must be pinned in research-lock.json.
   PROBE_GAME_VERSIONS: '["1.21.1", "1.21.11"]'
