@@ -260,7 +260,7 @@ jobs:
       contents: read
     env:
       CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-      WRANGLER: npx --yes wrangler@4.157.0
+      WRANGLER: npx --yes wrangler@4.162.0
       KV_NAMESPACE_ID: c04b064aa29d46468c8573ea7072cdf8
       RUN_ID: ${{ needs.build.outputs.run_id }}
     steps:
