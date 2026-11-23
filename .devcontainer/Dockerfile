@@ -16,7 +16,7 @@
 
 # Ubuntu 24.04 with the "vscode" user. The digest decides what is pulled; the tag next to it is
 # what Renovate reads to propose the next version and its digest together (renovate.json).
-FROM mcr.microsoft.com/devcontainers/base:3.0.13-noble@sha256:48be4adec1c1ecbe030064700aef85382f5205786a8f82937fc44a7473717eae
+FROM mcr.microsoft.com/devcontainers/base:3.0.14-noble@sha256:88171bb581e19bbb45db77a16a3a5475e2f9ddce025b044c2e5a69a6a1e24fa1
 
 LABEL org.opencontainers.image.source="https://github.com/MosheByte/jarrow" \
       org.opencontainers.image.description="Development container for Jarrow: Rust, cargo-fuzz, Python 3.12, Node 24, JDK 21 and gh" \
